@@ -232,88 +232,89 @@ description: Programming for Data Science is a subject we've designed to explore
 <!-- Hero Section -->
 <div class="hero fade-in">
   <div class="md-grid md-typeset">
-    <div style="display: flex; flex-wrap: wrap; align-items: center;">
-      <div style="flex: 1 1 500px; min-width: 300px;">
-        <h1 style="margin-bottom: 1rem; border: none;">Programming for Data Science</h1>
-        <p style="font-size: 1.2rem; opacity: 0.9; margin-bottom: 2rem;">A comprehensive and dynamic course designed to equip you with the skills to thrive in today's data-driven world.</p>
-        <a href="#course-modules" class="hero-btn pulse">Explore Courses</a>
+    <div class="hero-flex">
+      <div class="hero-content">
+        # Programming for Data Science
+        
+        A comprehensive and dynamic course designed to equip you with the skills to thrive in today's data-driven world.
+        
+        [Explore Courses](#course-modules){.hero-btn .pulse}
       </div>
-      <div style="flex: 0 1 400px; min-width: 300px; margin-left: auto; margin-right: auto;" class="float">
-        <img src="./assets/data_science.jpg" alt="Data Science Overview" style="max-width: 100%; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);">
+      <div class="hero-image float">
+        ![Data Science Overview](./assets/data_science.jpg)
       </div>
     </div>
   </div>
 </div>
 
 <!-- Introduction Section -->
-<div class="slide-up">
-  <h2 style="text-align: center;" id="about">Begin Your Data Science Journey</h2>
-  <p style="font-size: 1.1rem; max-width: 800px; margin-left: auto; margin-right: auto; text-align: center;">
-    This subject offers a structured path to mastering the tools and techniques that drive data-driven decision-making in today's industries. Whether you are a beginner looking to start your journey or an experienced professional aiming to deepen your expertise, this course has something for everyone.
-  </p>
+<div class="intro slide-up">
+  ## Begin Your Data Science Journey {#about}
+  
+  This subject offers a structured path to mastering the tools and techniques that drive data-driven decision-making in today's industries. Whether you are a beginner looking to start your journey or an experienced professional aiming to deepen your expertise, this course has something for everyone.
 </div>
 
 <!-- Course Modules Section -->
-<h2 style="text-align: center; margin-top: 3rem;" id="course-modules" class="slide-up">What You Will Learn</h2>
+## What You Will Learn {#course-modules .section-title .slide-up}
 
 <div class="card-container">
   <!-- Python Programming Card -->
-  <a href="https://science.dataidea.org/Python/00_python_programming_outline.html" style="text-decoration: none;" class="course-card fade-in delay-1">
+  <a href="https://science.dataidea.org/Python/00_python_programming_outline.html" class="course-card fade-in delay-1">
     <div class="card-img">
-      <img src="./assets/python_programming.jpg" alt="Python Programming">
+      ![Python Programming](./assets/python_programming.jpg)
     </div>
     <div class="card-content">
       <h3 class="card-title">Python Programming</h3>
       <p>Start with the basics of Python, a versatile and powerful programming language. This course lays the foundation for your data science journey.</p>
-      <span class="card-link">Explore <span class="twemoji">{% include ".icons/octicons/arrow-right-16.svg" %}</span></span>
+      <span class="card-link">Explore {% include ".icons/octicons/arrow-right-16.svg" %}</span>
     </div>
   </a>
   
   <!-- Python Data Analysis Card -->
-  <a href="https://science.dataidea.org/Python-Data-Analysis/python_data_analysis_outline.html" style="text-decoration: none;" class="course-card fade-in delay-2">
+  <a href="https://science.dataidea.org/Python-Data-Analysis/python_data_analysis_outline.html" class="course-card fade-in delay-2">
     <div class="card-img">
-      <img src="./assets/python_data_analysis.jpg" alt="Data Analysis">
+      ![Data Analysis](./assets/python_data_analysis.jpg)
     </div>
     <div class="card-content">
       <h3 class="card-title">Python Data Analysis</h3>
       <p>Explore data analysis using libraries like Pandas, NumPy, and Matplotlib. Learn to transform raw data into actionable insights.</p>
-      <span class="card-link">Explore <span class="twemoji">{% include ".icons/octicons/arrow-right-16.svg" %}</span></span>
+      <span class="card-link">Explore {% include ".icons/octicons/arrow-right-16.svg" %}</span>
     </div>
   </a>
   
   <!-- Machine Learning Card -->
-  <a href="https://science.dataidea.org/Python-Data-Analysis/Week4-ML-Intro/41_overview_of_machine_learning.html" style="text-decoration: none;" class="course-card fade-in delay-3">
+  <a href="https://science.dataidea.org/Python-Data-Analysis/Week4-ML-Intro/41_overview_of_machine_learning.html" class="course-card fade-in delay-3">
     <div class="card-img">
-      <img src="./assets/python_machine_learning.jpg" alt="Machine Learning">
+      ![Machine Learning](./assets/python_machine_learning.jpg)
     </div>
     <div class="card-content">
       <h3 class="card-title">Machine Learning (Python)</h3>
       <p>Discover the principles of machine learning and gain hands-on experience in building and optimizing models.</p>
-      <span class="card-link">Explore <span class="twemoji">{% include ".icons/octicons/arrow-right-16.svg" %}</span></span>
+      <span class="card-link">Explore {% include ".icons/octicons/arrow-right-16.svg" %}</span>
     </div>
   </a>
   
   <!-- PyTorch Deep Learning Card -->
-  <a href="https://science.dataidea.org/Pytorch-Deep-Learning/outline.html" style="text-decoration: none;" class="course-card fade-in delay-4">
+  <a href="https://science.dataidea.org/Pytorch-Deep-Learning/outline.html" class="course-card fade-in delay-4">
     <div class="card-img">
-      <img src="./assets/pytorch_deep_learning.jpg" alt="Deep Learning with PyTorch">
+      ![Deep Learning with PyTorch](./assets/pytorch_deep_learning.jpg)
     </div>
     <div class="card-content">
       <h3 class="card-title">PyTorch Deep Learning</h3>
       <p>Dive deep into neural networks and learn to build advanced models using PyTorch.</p>
-      <span class="card-link">Explore <span class="twemoji">{% include ".icons/octicons/arrow-right-16.svg" %}</span></span>
+      <span class="card-link">Explore {% include ".icons/octicons/arrow-right-16.svg" %}</span>
     </div>
   </a>
 </div>
 
 <!-- Features Section -->
-<div style="background-color: #f5f7f9; border-radius: 12px; padding: 2rem; margin: 3rem 0;" class="slide-up">
-  <h2 style="text-align: center; margin-top: 0;">Why Choose This Course?</h2>
+<div class="features-section slide-up">
+  ## Why Choose This Course?
   
   <div class="feature-grid">
     <div class="feature-item fade-in delay-1">
       <h4 class="feature-title">
-        <span class="twemoji">{% include ".icons/fontawesome/solid/laptop.svg" %}</span>
+        {% include ".icons/fontawesome/solid/laptop.svg" %}
         Hands-On Learning
       </h4>
       <p>Each module is designed with practical exercises and real-world projects to ensure you can apply what you've learned.</p>
@@ -321,7 +322,7 @@ description: Programming for Data Science is a subject we've designed to explore
     
     <div class="feature-item fade-in delay-2">
       <h4 class="feature-title">
-        <span class="twemoji">{% include ".icons/fontawesome/solid/road.svg" %}</span>
+        {% include ".icons/fontawesome/solid/road.svg" %}
         Flexible Learning Path
       </h4>
       <p>Choose to follow the entire course or focus on specific modules that meet your individual learning goals.</p>
@@ -329,7 +330,7 @@ description: Programming for Data Science is a subject we've designed to explore
     
     <div class="feature-item fade-in delay-3">
       <h4 class="feature-title">
-        <span class="twemoji">{% include ".icons/fontawesome/solid/chalkboard-teacher.svg" %}</span>
+        {% include ".icons/fontawesome/solid/chalkboard-teacher.svg" %}
         Expert Guidance
       </h4>
       <p>Gain insights from industry professionals who are passionate about data science and dedicated to your success.</p>
@@ -337,7 +338,7 @@ description: Programming for Data Science is a subject we've designed to explore
     
     <div class="feature-item fade-in delay-4">
       <h4 class="feature-title">
-        <span class="twemoji">{% include ".icons/fontawesome/solid/briefcase.svg" %}</span>
+        {% include ".icons/fontawesome/solid/briefcase.svg" %}
         Career-Ready Skills
       </h4>
       <p>By the end of this course, you'll be ready to tackle data science challenges, whether you're transitioning careers or enhancing your current role.</p>
@@ -347,49 +348,47 @@ description: Programming for Data Science is a subject we've designed to explore
 
 <!-- Newsletter Section -->
 <div class="newsletter-container slide-up">
-  <h3 style="margin-top: 0; display: flex; align-items: center; gap: 0.5rem;">
-    <span class="twemoji">{% include ".icons/fontawesome/solid/envelope.svg" %}</span>
+  <h3>
+    {% include ".icons/fontawesome/solid/envelope.svg" %}
     Don't Miss Any Updates!
   </h3>
   <p>
     Before we continue, we have a humble request, to be among the first to hear about future updates of the course materials, simply enter your email below, follow us on 
-    <a href="https://x.com/dataideaorg" style="color: white; text-decoration: underline;">
-      <span class="twemoji">{% include ".icons/fontawesome/brands/x-twitter.svg" %}</span> (formally Twitter)
+    <a href="https://x.com/dataideaorg">
+      {% include ".icons/fontawesome/brands/x-twitter.svg" %} (formally Twitter)
     </a>, 
     or subscribe to our 
-    <a href="https://www.youtube.com/@dataidea-science" style="color: white; text-decoration: underline;">
-      <span class="twemoji">{% include ".icons/fontawesome/brands/youtube.svg" %}</span> YouTube channel
+    <a href="https://www.youtube.com/@dataidea-science">
+      {% include ".icons/fontawesome/brands/youtube.svg" %} YouTube channel
     </a>.
   </p>
-  <iframe class="newsletter-frame" src="https://embeds.beehiiv.com/5fc7c425-9c7e-4e08-a514-ad6c22beee74?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="width: 100%; max-width: 600px; display: block; margin: 1rem auto 0;">
+  <iframe class="newsletter-frame" src="https://embeds.beehiiv.com/5fc7c425-9c7e-4e08-a514-ad6c22beee74?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no">
   </iframe>
 </div>
 
 <!-- Author Section -->
 <div class="author-container fade-in">
   <div class="author-avatar">
-    <span class="twemoji">{% include ".icons/fontawesome/solid/user.svg" %}</span>
+    {% include ".icons/fontawesome/solid/user.svg" %}
   </div>
-  <div>
-    <h2 style="margin-top: 0;">About the Author</h2>
-    <p>
-      Hi, My name is Juma Shafara. I'm a Data Scientist at Raising The Village and Instructor at DATAIDEA. I have taught hundreds of people Programming, Data Analysis and Machine Learning.
-    </p>
-    <p>
-      I enjoy developing innovative algorithms and models that can drive insights and value. I regularly share content that I find useful throughout my work/learning/teaching journey to simplify concepts in Machine Learning, Mathematics, Programming, and related topics on my website <a href="https://jumashafara.dataidea.org">jumashafara.dataidea.org</a>.
-    </p>
-    <p>
-      Besides these technical aspects, I enjoy watching soccer, movies and reading mystery books.
-    </p>
-    <div style="margin-top: 1rem; display: flex; gap: 1rem;">
-      <a href="https://x.com/dataideaorg" style="color: var(--md-primary-fg-color);">
-        <span class="twemoji" style="font-size: 1.5rem;">{% include ".icons/fontawesome/brands/x-twitter.svg" %}</span>
+  <div class="author-content">
+    ## About the Author
+    
+    Hi, My name is Juma Shafara. I'm a Data Scientist at Raising The Village and Instructor at DATAIDEA. I have taught hundreds of people Programming, Data Analysis and Machine Learning.
+    
+    I enjoy developing innovative algorithms and models that can drive insights and value. I regularly share content that I find useful throughout my work/learning/teaching journey to simplify concepts in Machine Learning, Mathematics, Programming, and related topics on my website [jumashafara.dataidea.org](https://jumashafara.dataidea.org).
+    
+    Besides these technical aspects, I enjoy watching soccer, movies and reading mystery books.
+    
+    <div class="social-links">
+      <a href="https://x.com/dataideaorg" class="social-link">
+        {% include ".icons/fontawesome/brands/x-twitter.svg" %}
       </a>
-      <a href="https://www.youtube.com/@dataidea-science" style="color: var(--md-primary-fg-color);">
-        <span class="twemoji" style="font-size: 1.5rem;">{% include ".icons/fontawesome/brands/youtube.svg" %}</span>
+      <a href="https://www.youtube.com/@dataidea-science" class="social-link">
+        {% include ".icons/fontawesome/brands/youtube.svg" %}
       </a>
-      <a href="mailto:dataideaorg@gmail.com" style="color: var(--md-primary-fg-color);">
-        <span class="twemoji" style="font-size: 1.5rem;">{% include ".icons/fontawesome/solid/envelope.svg" %}</span>
+      <a href="mailto:dataideaorg@gmail.com" class="social-link">
+        {% include ".icons/fontawesome/solid/envelope.svg" %}
       </a>
     </div>
   </div>

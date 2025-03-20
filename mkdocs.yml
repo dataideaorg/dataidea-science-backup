@@ -76,6 +76,7 @@ theme:
 # extra
 extra_css:
   - styles/custom.css
+  - styles/homepage.css
 extra:
   generator: false
   homepage: https://www.dataidea.org/

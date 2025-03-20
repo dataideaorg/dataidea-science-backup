@@ -1,8 +1,9 @@
-site_name: DATAIDEA DOCS
+site_name: DATAIDEA SCIENCE
 site_url: https://science.dataidea.org/
 site_author: Juma Shafara
-site_description: DATAIDEA Documentation
+site_description: DATAIDEA SCIENCE
 
+# markdown_extensions
 markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
@@ -28,7 +29,7 @@ theme:
   logo: assets/logo.png
   name: material
   # customization
-  # custom_dir: overrides
+  custom_dir: overrides
 
   # features
   features:
@@ -38,8 +39,8 @@ theme:
     # navigation
     - navigation.footer
     - navigation.top
-    - navigation.tabs
-    - navigation.expand
+    # - navigation.tabs
+    # - navigation.expand
     # - navigation.sections
     - navigation.indexes
     - content.code.copy
@@ -91,6 +92,7 @@ extra:
 
 plugins:
   - search
+  - mkdocs-jupyter
   - git-revision-date-localized:
       enable_creation_date: true
   - minify:
